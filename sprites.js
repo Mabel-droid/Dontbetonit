@@ -1,8 +1,6 @@
 function preload() {
   cardset = loadImage("/sprites/set.png");
   chips = loadImage("/sprites/chip.png");
-  fatassPixels = loadFont("/sprites/FatassPixels-Regular.ttf");
-  restockitems();
 }
 
 function restockitems() {
