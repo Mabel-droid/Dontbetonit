@@ -1,6 +1,6 @@
 function preload() {
-  cardset = loadImage("/sprites/set.png");
-  chips = loadImage("/sprites/chip.png");
+  cardset = loadImage("./sprites/set.png");
+  chips = loadImage("./sprites/chip.png");
 }
 
 function restockitems() {
