@@ -299,7 +299,11 @@ function draw() {
       } else {
         fill(0);
       }
-      rect(width / 2, height / 2, width / 3, height / 3);
+      if (phone == true) {
+        rect(width / 2, height / 2, height / 3, width / 3);
+      } else {
+        rect(width / 2, height / 2, width / 3, height / 3);
+      }
       fill(255);
       noStroke();
       if (state == "win") {
